@@ -1,0 +1,112 @@
+.header {
+    top: 30px;
+    left: 100px;
+    right: 187px;
+    height: 100px;
+    background-color: cornsilk
+}
+.title {
+    text-align: center;
+}
+
+}
+.common { 
+    position: absolute;
+}
+element.style {
+    position: relative
+    width: 85%
+    height: 85%
+    overflow: hidden;
+    dislpay: block;
+}
+div {
+    display: block;
+    unicode-bidi: inherit;
+}
+.body { 
+    font-family: sans-serif, sans-serif, fantasy
+    font-size: 50px;
+    color: darkgrey;
+    margin-bottom: 100px;
+}
+.mainbody {
+    left: 500px;
+    top: 50px;
+    z-index: 1;
+}
+.captions {
+    text-align: left;
+    font-family: sans-serif;
+    z-index: 3;
+}
+li {
+    font-size: 20px;
+    font-style: italic;
+}
+a {
+    color: cadetblue
+}
+.bold {
+    font-weight: bold;
+}
+.background{
+    background-color: burlywood
+}
+.tableau {
+    position:absolute;
+    width:500px;
+/*    z-index:1;*/
+    margin:5;
+}
+.tableau_margin {
+    margin:3;
+    margin-bottom:5;
+    border:solid 2px darkblue;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+}
+.topleft{    
+    left:5px;
+    height: 50;
+    margin-bottom: 10;
+}
+.topright{
+    right:5px;
+    height:400px;
+    margin-bottom: 10;
+}
+.bottomleft{
+    left: 5px;
+    bottom: 10px;
+    height: 500px;
+}
+.bottomright{
+    right: 5px;
+    bottom: 10px;
+    height: 500px;
+}
+.captions {
+    text-align: left;
+    font-family: sans-serif;
+}
+    
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: cornsilk;
+  text-align: center;
+  border-top: solid 2px darkblue;
+  font-size: 20px;
+  flex-shrink: 0;
+
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.
